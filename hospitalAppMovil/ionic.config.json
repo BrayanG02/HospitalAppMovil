@@ -1,0 +1,7 @@
+{
+  "name": "hospitalAppMovil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
