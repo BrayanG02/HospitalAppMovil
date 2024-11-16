@@ -32,13 +32,13 @@
   
   <script>
   import { IonContent, IonCard, IonCardHeader, IonCardTitle, IonButton } from "@ionic/vue";
-  import Personas from "./personas.vue";
-  import Usuario from "./usuario.vue";
+/*   import Personas from "./personas.vue";
+  import Usuario from "./usuario.vue"; */
   
   export default {
     components: {
-      Personas,
-      Usuario,
+/*    Personas,
+      Usuario, */
       IonContent,
       IonCard,
       IonCardHeader,

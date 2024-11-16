@@ -62,7 +62,6 @@
                     required label="Contraseña"
                     label-placement="floating"
                     placeholder="Escribe tu contraseña">
-                    <ion-input-password-toggle slot="end"></ion-input-password-toggle>
                     </ion-input>
                 </ion-item>
 
@@ -71,15 +70,13 @@
                   Iniciar Sesión
                 </ion-button>
               </form>
-  
-              <div class="mt-4 flex items-center justify-between">
-                <span class="border-b w-1/5"></span>
-                <RouterLink to="/register">
-                  <p class="text-xs text-gray-500 uppercase">o ¡Regístrate!</p>
-                </RouterLink>
-                <span class="border-b w-1/5"></span>
-              </div>
-  
+
+            <RouterLink to="/RegisterUser">
+              <ion-button   expand="block" class="mt-8" type="submit" color="primary" >
+                  O registrate
+              </ion-button>
+            </RouterLink>
+
               <ion-text
                 v-if="mensaje"
                 class="mt-4 text-center text-danger"
@@ -116,6 +113,7 @@
     IonIcon,
   } from "@ionic/vue";
   import axios from "axios";
+import { RouterLink } from "vue-router";
 
   
   const apiClient = axios.create({

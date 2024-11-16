@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from '@ionic/vue-router';
 //IMPORTACIONES DE LAS VISTAS
 import DashBoard from '../components/DashBoard.vue'
 import LoginView from '../components/loginInicio.vue'
+import RegisterUser from '../components/registerUser.vue'
 
 const routes= [
  {
@@ -12,6 +13,11 @@ const routes= [
   path: '/LoginView',
   name: 'LoginView',
   component: LoginView
+ },
+ {
+  path: '/RegisterUser',
+  name: 'RegisterUser',
+  component: RegisterUser
  },
  {
   path: '/DashBoard',
