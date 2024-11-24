@@ -113,7 +113,7 @@
     IonIcon,
   } from "@ionic/vue";
   import axios from "axios";
-import { RouterLink } from "vue-router";
+
 
   
   const apiClient = axios.create({
